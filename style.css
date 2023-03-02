@@ -21,3 +21,34 @@ body{
 #completeHouse{
     width: 40%;
 }
+
+.addons{
+    width: 80%;
+    margin: 1em;
+}
+.feature{
+    margin: 1em;
+padding: 1em 2em;
+border-radius: 10px;
+background-color: #cd2fe2;
+border: none;
+color: #fff;
+}
+
+.feature:hover{
+    background-color: #e04ff3;
+    ;
+
+}
+.selected{
+    background-color: #481b4e;
+}
+
+.selected:hover{
+    background-color: #5b3860;
+}
+
+
+#landscaping , #trees, #road, #garage, #mailbox{
+    display: none;
+}
